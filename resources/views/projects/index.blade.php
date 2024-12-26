@@ -7,7 +7,7 @@
 
             @auth
                 <!-- Show this button only for logged-in users -->
-                <a href="{{ route('projects.create') }}" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                <a href="{{ route('projects.create') }}" class="bg-gray-500 text-white px-4 py-2 rounded hover:bg-blue-600">
                     + Create Project
                 </a>
             @endauth
